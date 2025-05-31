@@ -59,7 +59,7 @@ app.use('/api/blocks', require('./routes/blockRoutes'));
 app.use('/api/uploads', require('./routes/uploadRoutes'));
 app.use('/api/payments', require('./routes/paymentRoutes'));
 app.use('/api/admin', require('./routes/admin'));
-app.use('/api/ai', require('./routes/openai'));
+// app.use('/api/ai', require('./routes/openai'));
 app.use('/api/invites', require('./routes/inviteRoute'));
 
 app.get('/', (req, res) => {
